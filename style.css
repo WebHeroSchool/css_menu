@@ -20,7 +20,7 @@
   opacity: 1;
   left: 0;
   transform: rotate(0deg);
-  transition: .25s ease-in-out;
+  transition: 1s ease-in-out;
 }
 
 .menu__icon span:nth-child(1) {
@@ -74,7 +74,7 @@
   display: block;  
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 740px) {
   .menu__icon{
     display: inline-block;
   }
